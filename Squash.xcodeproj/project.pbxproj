@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EB0A00E2719108700211AD6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB0A00D2719108700211AD6 /* LoginVC.swift */; };
 		5EFCF4EA2718F359009E4149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFCF4E92718F359009E4149 /* AppDelegate.swift */; };
 		5EFCF4EC2718F359009E4149 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFCF4EB2718F359009E4149 /* SceneDelegate.swift */; };
 		5EFCF4EE2718F359009E4149 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFCF4ED2718F359009E4149 /* ViewController.swift */; };
@@ -14,9 +15,12 @@
 		5EFCF4F42718F359009E4149 /* Squash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EFCF4F22718F359009E4149 /* Squash.xcdatamodeld */; };
 		5EFCF4F62718F35D009E4149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFCF4F52718F35D009E4149 /* Assets.xcassets */; };
 		5EFCF4F92718F35D009E4149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFCF4F72718F35D009E4149 /* LaunchScreen.storyboard */; };
+		C74EA8D59FACB6FD00C6BBAC /* Pods_Squash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A28B4B1BB5A6F911EA43E63 /* Pods_Squash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A28B4B1BB5A6F911EA43E63 /* Pods_Squash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Squash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB0A00D2719108700211AD6 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		5EFCF4E62718F359009E4149 /* Squash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFCF4E92718F359009E4149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EFCF4EB2718F359009E4149 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		5EFCF4F52718F35D009E4149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EFCF4F82718F35D009E4149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EFCF4FA2718F35D009E4149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B35BE84C33803C18531B045 /* Pods-Squash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Squash.debug.xcconfig"; path = "Target Support Files/Pods-Squash/Pods-Squash.debug.xcconfig"; sourceTree = "<group>"; };
+		F6FF2F0BBAE6EEE4A4010243 /* Pods-Squash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Squash.release.xcconfig"; path = "Target Support Files/Pods-Squash/Pods-Squash.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C74EA8D59FACB6FD00C6BBAC /* Pods_Squash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03E98F65DDE6A45765193F49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A28B4B1BB5A6F911EA43E63 /* Pods_Squash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5EFCF4DD2718F359009E4149 = {
 			isa = PBXGroup;
 			children = (
 				5EFCF4E82718F359009E4149 /* Squash */,
 				5EFCF4E72718F359009E4149 /* Products */,
+				633184CB2F239535535F353A /* Pods */,
+				03E98F65DDE6A45765193F49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				5EFCF4E92718F359009E4149 /* AppDelegate.swift */,
+				5EB0A00D2719108700211AD6 /* LoginVC.swift */,
 				5EFCF4EB2718F359009E4149 /* SceneDelegate.swift */,
 				5EFCF4ED2718F359009E4149 /* ViewController.swift */,
 				5EFCF4EF2718F359009E4149 /* Main.storyboard */,
@@ -70,6 +88,15 @@
 			path = Squash;
 			sourceTree = "<group>";
 		};
+		633184CB2F239535535F353A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B35BE84C33803C18531B045 /* Pods-Squash.debug.xcconfig */,
+				F6FF2F0BBAE6EEE4A4010243 /* Pods-Squash.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EFCF4FD2718F35D009E4149 /* Build configuration list for PBXNativeTarget "Squash" */;
 			buildPhases = (
+				2EC9DB049F668C118BA693E7 /* [CP] Check Pods Manifest.lock */,
 				5EFCF4E22718F359009E4149 /* Sources */,
 				5EFCF4E32718F359009E4149 /* Frameworks */,
 				5EFCF4E42718F359009E4149 /* Resources */,
+				36E69F93B5998FC6135E1372 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,11 +165,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EC9DB049F668C118BA693E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Squash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36E69F93B5998FC6135E1372 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Squash/Pods-Squash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Squash/Pods-Squash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Squash/Pods-Squash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5EFCF4E22718F359009E4149 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB0A00E2719108700211AD6 /* LoginVC.swift in Sources */,
 				5EFCF4F42718F359009E4149 /* Squash.xcdatamodeld in Sources */,
 				5EFCF4EE2718F359009E4149 /* ViewController.swift in Sources */,
 				5EFCF4EA2718F359009E4149 /* AppDelegate.swift in Sources */,
@@ -288,6 +360,7 @@
 		};
 		5EFCF4FE2718F35D009E4149 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B35BE84C33803C18531B045 /* Pods-Squash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,6 +389,7 @@
 		};
 		5EFCF4FF2718F35D009E4149 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6FF2F0BBAE6EEE4A4010243 /* Pods-Squash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
